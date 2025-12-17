@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: Arial;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.bottle {
+    width: 80px;
+    height: 200px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    cursor: pointer;
+}
+
+.layer {
+    height: 25%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Sort Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Water Sort Puzzle</h1>
+
+<p>Click a bottle, then click another bottle</p>
+
+
+<p><b>Moves Left:</b> <span id="moves"></span></p>
+
+<!-- GAME AREA -->
+<div class="game">
+    <div class="bottle" onclick="selectBottle(0)"></div>
+    <div class="bottle" onclick="selectBottle(1)"></div>
+    <div class="bottle" onclick="selectBottle(2)"></div>
+</div>
+
+<!-- WIN / LOSS MESSAGE -->
+<p id="message"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
